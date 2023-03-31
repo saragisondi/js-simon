@@ -1,0 +1,36 @@
+/*GENERAL*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+/*BUTTON*/
+button{
+border-radius: 5px;
+padding: 5px 10px;
+font-size: medium;
+font-weight: bold;
+margin:10px;
+}
+
+.start{
+  background-color: bisque;
+}
+
+
+.hide{
+  display: none;
+}

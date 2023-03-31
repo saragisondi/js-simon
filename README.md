@@ -8,6 +8,6 @@ Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei num
 ## STEPS
 
 - Creare un funzione e un ciclo per stampare in pagina 5 numeri casuali;
-- Creare un timer di 5 secondi con set interval;
-- Con set timeout, allo scadere dei 5 secondi faccio dei prompt per chiedere al'utente di inserire i numeri che ha appena visto;
+- Creare un timer di 5 secondi con set timeout;
+- Faccio dei prompt per chiedere al'utente di inserire i numeri che ha appena visto;
 - Creo una condizione per verificare quali e quanti numeri sono stati indovinati
