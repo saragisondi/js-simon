@@ -57,18 +57,6 @@ if(!userNumberArr.includes(userNum)){
 }
 
 
-
-// for (let i = 0; i < array.length; i++) {
-//   const element = array[i];
-  
-// }
-// if (numberArray[i] === userNumberArr[i]) {
-//   msg.innerHTML = `
-//   Numeri inseriti corretti!!
-//   `
-// }
-
-
   // msg.innerHTML = `  Questi sono i numeri che hai visto: ${numberArray} <br> Questi sono i numeri che hai inserito: ${userNumberArr}`
 }
 
@@ -76,16 +64,18 @@ console.log(userNumberArr)
 
 //confronto la lunghezza degli array
 if (numberArray.lenght != userNumberArr.lenght) {
-  console.log('non sono uguali')
+  console.log('non sono lunghi uguali')
 }else{
-  console.log('sono uguali')
+  console.log('sono lunghi uguali')
 }
 
 //confronto gli array
-if (condition) {
-  
-}
 
+if(!userNumberArr.lenght.includes(numberArray.lenght)){
+  console.log('no');
+}else{
+  console.log('si')
+}
 
 
 }, 9000);
@@ -98,6 +88,6 @@ if (condition) {
 // const difference = "";
 
 // function compareArray(numberArray, userNumberArr, numberArraylenght, userNumberArrlenght, ) {
- 
+
 
 // }
