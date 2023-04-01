@@ -55,27 +55,14 @@ setTimeout(() => {
 if(!userNumberArr.includes(userNum)){
   userNumberArr.push(userNum);
 }
+msg.innerHTML = `  Questi sono i numeri che hai visto: ${numberArray} <br> Questi sono i numeri che hai inserito: ${userNumberArr}`
 
-
-  // msg.innerHTML = `  Questi sono i numeri che hai visto: ${numberArray} <br> Questi sono i numeri che hai inserito: ${userNumberArr}`
 }
 
 console.log(userNumberArr)
 
-//confronto la lunghezza degli array
-if (numberArray.lenght != userNumberArr.lenght) {
-  console.log('non sono lunghi uguali')
-}else{
-  console.log('sono lunghi uguali')
-}
 
-//confronto gli array
 
-if(!userNumberArr.lenght.includes(numberArray.lenght)){
-  console.log('no');
-}else{
-  console.log('si')
-}
 
 
 }, 9000);
@@ -83,11 +70,3 @@ if(!userNumberArr.lenght.includes(numberArray.lenght)){
 
 })
 
-
-/****************FUNCTION ARRAY*******************/
-// const difference = "";
-
-// function compareArray(numberArray, userNumberArr, numberArraylenght, userNumberArrlenght, ) {
-
-
-// }
