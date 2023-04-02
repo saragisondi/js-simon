@@ -1,9 +1,12 @@
 /****************ARRAY*******************/
 //creo un array vuoto
 let numberArray = []; 
+let numberI = 0;
+
 
 //creo un array per inserire i numeri dell'utente
 let userNumberArr = []
+let numberU= 0;
 
 
 /****************VARIABILI*******************/
@@ -62,7 +65,18 @@ msg.innerHTML = `  Questi sono i numeri che hai visto: ${numberArray} <br> Quest
 console.log(userNumberArr)
 
 
+FIXME:
+for (let i = 0; i < numberArray.length; i++) {
+  let numberI = numberArray[i];
+  console.log(numberI)
+  
+}
 
+for (let i = 0; i < userNumberArr.length; i++) {
+  let numberU = userNumberArr[i];
+  console.log(numberU)
+  
+}
 
 
 }, 9000);
@@ -70,3 +84,8 @@ console.log(userNumberArr)
 
 })
 
+
+
+// TODO:
+// - Faccio un confronto tra gli elementi dell'array e i numeri inseriti dall'utente e gli elementi dell'array dei numeri random;
+// - Stampo in pagina quali e quanti numeri sono stati indovinati

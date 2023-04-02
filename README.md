@@ -17,7 +17,3 @@ Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei num
 - Creo i Prompt; 
 - Creo una condizione in cui se i numeri nei prompt inseriti dall'utente non sono presenti tra i numeri inseriti nell 'array  dall'utente, vengono pushati nell'array.
 
-### TO DO
-- Faccio un confronto tra la lunghezza dell' array dei numeri inseriti dall'utente e dell'array dei numeri random;
-- Faccio un confronto tra gli elementi dell'array ei numeri inseriti dall'utente e gli elementi dell'array dei numeri random;
-- Stampo in pagina quali e quanti numeri sono stati indovinati
